@@ -1,5 +1,3 @@
-import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 def plot_survivors(df):
@@ -14,7 +12,6 @@ def plot_survivors(df):
 	pass
 
 def plot_classes(df):
-	total = len(df)
 	classes = df['Pclass'].value_counts()
 	labels = classes.index
 	values = classes.values
