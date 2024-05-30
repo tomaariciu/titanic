@@ -16,6 +16,8 @@ def task4(df):
 	not_survived = df[df['Survived'] == 0]
 	print("Survived:")
 	print_percentage(survived)
+	df.to_csv("../Date/survived.csv")
 	print("Not survived:")
 	print_percentage(not_survived)
+	df.to_csv("../Date/not_survived.csv")
 	pass
