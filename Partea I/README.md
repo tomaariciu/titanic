@@ -1,7 +1,7 @@
 **Nume: Ariciu Toma**
 **Grupă: 312CAb**
 
-## Proiect PCLP3 - Titanic
+## Proiect PCLP3 - Titanic - Partea I
 
 ### Descriere:
 
@@ -142,3 +142,14 @@ Procentajul este 87.61384335154827%
 ![plot_Titles](Grafice/Titles.png)
 
 * Am adaugat doua coloane noi la data frame: prima este titlul, iar a doua este sexul presupus de acesta. De aceea, am salvat noul data frame obtinut in format csv.
+
+# Cerinta 10
+
+* Am adaugat o coloana noua data frame-ului, care sa spuna daca pasagerul a fost singur pe titanic (valorile de pe coloanele SibSp si Parch sunt 0) sau nu.
+Am filtrat doar pasagerii singuri si am reprezentat intr-o histograma cati au supravietuit si cati nu:
+
+![plot_Alone_survival_rate](Grafice/Alone_survival_rate.png)
+
+* Considerand doar primii 100 pasageri, am reprezentat grafic relatia dintre clasa, pret si supravietuire:
+
+![plot_Class-Fare-Survival_relationship](Grafice/Class-Fare-Survival_relationship.png)
