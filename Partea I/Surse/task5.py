@@ -15,7 +15,7 @@ def task5(df):
 	age_groups = df['AgeGroup'].value_counts()
 	labels = age_groups.index
 	values = age_groups.values
-	plt.pie(values, labels=labels)
+	plt.pie(values, labels=labels, autopct='%1.0f%%')
 	plt.title("Age group distribution")
 	plt.savefig("../Grafice/AgeGroups.png")
 	plt.close()

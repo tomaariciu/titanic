@@ -106,3 +106,11 @@ Procentajul este 22.768670309653917%
 * Cabin:
 Numarul total este 481
 Procentajul este 87.61384335154827%
+
+# Cerinta 5
+
+* Am adaugat o coloana in data frame, care sa ne spuna carui grup de varsta apartine un pasager, folosind functia apply. Folosind value_counts, am scos datele necesare pentru crearea unui pie-chart, care sa ilustreze distributia pasagerilor:
+
+![plot_AgeGroups](Grafice/AgeGroups.png)
+
+* De asemenea, am salvat noul data frame ca fisier csv.
