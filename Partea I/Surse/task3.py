@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 
 def plot_histogram(df, column):
 	plt.hist(df[column].dropna())
+	plt.xlabel(f"{column} values")
+	plt.ylabel(f"Frequency")
+	plt.title(f"{column} histogram")
 	plt.savefig(f"../Grafice/{column}.png")
 	plt.close()
 	pass

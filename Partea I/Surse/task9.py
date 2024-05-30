@@ -27,7 +27,10 @@ def task9(df):
 	labels = titles.index
 	values = titles.values
 	plt.bar(labels, values)
-	plt.xticks(rotation = 90)
+	plt.xticks(rotation = 90, fontsize = 6)
+	plt.xlabel("Passenger titles")
+	plt.ylabel("Frequency")
+	plt.title("Passsenger title distribution")
 	plt.savefig("../Grafice/Titles.png")
 	plt.close()
 	df['Title gender'] = df.apply(lambda x: title_to_gender[x['Title']], axis = 1)
