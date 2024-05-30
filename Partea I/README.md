@@ -134,3 +134,11 @@ Procentajul este 87.61384335154827%
 * Am impartit data frame-ul dupa cele doua clase date de coloana Survived. Folosind functia fillna(), am inlocuit valorile lipsa cu media celorlalte valori, daca coloana continea date numerice, sau cu cea mai frecventa intrare, daca nu. Apoi, am inlocuit valorile calculate pe clase in data frame-ul original.
 
 * Am salvat fisierul in format csv (filled.csv).
+
+# Cerinta 9
+
+* Am identificat toate titlurile pe care le au pasagerii si le-am atribuit sexul corespunzator. Am reprezentat grafic frecventele titlurilor (vezi mai jos) si am calculat cate persoane au sexul diferit de cel presupus de titlu: o singura persoana (o persoana de sex feminin cu titlul "Dr").
+
+![plot_Titles](Grafice/Titles.png)
+
+* Am adaugat doua coloane noi la data frame: prima este titlul, iar a doua este sexul presupus de acesta. De aceea, am salvat noul data frame obtinut in format csv.
