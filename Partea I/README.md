@@ -128,3 +128,9 @@ Procentajul este 87.61384335154827%
 ![plot_Children&Adults_survival_rates](Grafice/Children%26Adults_survival_rates.png)
 
 * Am omis pasagerii a caror varsta este necunoscuta. De asemenea, am salvat cele doua data frame-uri create ca fisiere csv.
+
+# Cerinta 8
+
+* Am impartit data frame-ul dupa cele doua clase date de coloana Survived. Folosind functia fillna(), am inlocuit valorile lipsa cu media celorlalte valori, daca coloana continea date numerice, sau cu cea mai frecventa intrare, daca nu. Apoi, am inlocuit valorile calculate pe clase in data frame-ul original.
+
+* Am salvat fisierul in format csv (filled.csv).
