@@ -114,3 +114,9 @@ Procentajul este 87.61384335154827%
 ![plot_AgeGroups](Grafice/AgeGroups.png)
 
 * De asemenea, am salvat noul data frame ca fisier csv.
+
+# Cerinta 6
+
+* Folosind coloana creata la cerinta anterioara, am filtrat tabelul initial pentru a ramane doar cu barbatii, pe care i-am impartit dupa grupele de varsta si le-am calculat rata de supravietuire, pe care am pus-o in urmatorul grafic:
+
+![plot_Male_survival_rate](Grafice/Male_survival_rate.png)
