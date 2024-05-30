@@ -120,3 +120,11 @@ Procentajul este 87.61384335154827%
 * Folosind coloana creata la cerinta anterioara, am filtrat tabelul initial pentru a ramane doar cu barbatii, pe care i-am impartit dupa grupele de varsta si le-am calculat rata de supravietuire, pe care am pus-o in urmatorul grafic:
 
 ![plot_Male_survival_rate](Grafice/Male_survival_rate.png)
+
+# Cerinta 7
+
+* Am filtrat din data frame-ul mare doar copiii (cu varsta sub 18 ani) si adultii (varsta peste 18 ani) si am calculat rata de supravietuire pentru ambele categorii:
+
+![plot_Children&Adults_survival_rates](Grafice/Children%26Adults_survival_rates.png)
+
+* Am omis pasagerii a caror varsta este necunoscuta. De asemenea, am salvat cele doua data frame-uri create ca fisiere csv.
