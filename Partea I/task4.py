@@ -19,4 +19,3 @@ def task4(df):
 	print("Not survived:")
 	print_percentage(not_survived)
 	pass
-

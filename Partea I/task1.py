@@ -9,3 +9,4 @@ def task1():
 	print(f"The number of rows is {len(df)}")
 	print(f"The number of duplicated rows is {df.duplicated().sum()}")
 	return df
+	
