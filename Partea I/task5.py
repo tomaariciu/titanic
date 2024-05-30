@@ -13,10 +13,9 @@ def get_age_group(age):
 def task5(df):
 	df['AgeGroup'] = df.apply(lambda x: get_age_group(x['Age']), axis = 1)
 	age_groups = df['AgeGroup'].value_counts()
-	print(age_groups)
 	labels = age_groups.index
 	values = age_groups.values
 	plt.pie(values, labels=labels)
 	plt.savefig("AgeGroups.png")
 	plt.close()
-	pass
+	return df

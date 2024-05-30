@@ -12,7 +12,7 @@ def plot_survivors(df):
 	pass
 
 def plot_classes(df):
-	classes = df['Pclass'].value_counts()
+	classes = df['Pclass'].value_counts().sort_index()
 	labels = classes.index
 	values = classes.values
 	plt.pie(values, labels=labels)
@@ -21,7 +21,7 @@ def plot_classes(df):
 	pass
 
 def plot_sexes(df):
-	sexes = df['Sex'].value_counts()
+	sexes = df['Sex'].value_counts().sort_index()
 	labels = sexes.index
 	values = sexes.values
 	plt.pie(values, labels=labels)
