@@ -18,5 +18,5 @@ def task8(df):
 	
 	df.fillna(survived, inplace = True)
 	df.fillna(not_survived, inplace = True)
-	df.to_csv("filled.csv")
+	df.to_csv("../Date/filled.csv")
 	pass

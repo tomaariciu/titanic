@@ -7,7 +7,7 @@ def plot_survivors(df):
 	labels = ['Survived', 'Lost']
 	values = [percentage, 100 - percentage]
 	plt.pie(values, labels=labels)
-	plt.savefig("survivors.png")
+	plt.savefig("../Grafice/survivors.png")
 	plt.close()
 	pass
 
@@ -16,7 +16,7 @@ def plot_classes(df):
 	labels = classes.index
 	values = classes.values
 	plt.pie(values, labels=labels)
-	plt.savefig("classes.png")
+	plt.savefig("../Grafice/classes.png")
 	plt.close()
 	pass
 
@@ -25,7 +25,7 @@ def plot_sexes(df):
 	labels = sexes.index
 	values = sexes.values
 	plt.pie(values, labels=labels)
-	plt.savefig("sexes.png")
+	plt.savefig("../Grafice/sexes.png")
 	plt.close()
 	pass
 

@@ -16,6 +16,7 @@ def task5(df):
 	labels = age_groups.index
 	values = age_groups.values
 	plt.pie(values, labels=labels)
-	plt.savefig("AgeGroups.png")
+	plt.savefig("../Grafice/AgeGroups.png")
 	plt.close()
+	df.to_csv("../Date/age_groups.csv")
 	return df

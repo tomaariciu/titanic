@@ -28,9 +28,10 @@ def task9(df):
 	values = titles.values
 	plt.bar(labels, values)
 	plt.xticks(rotation = 90)
-	plt.savefig("Titles.png")
+	plt.savefig("../Grafice/Titles.png")
 	plt.close()
 	df['Title gender'] = df.apply(lambda x: title_to_gender[x['Title']], axis = 1)
 	differences = len(df[df['Sex'] != df['Title gender']])
 	print(differences)
+	df.to_csv("../Date/titles.csv")
 	pass

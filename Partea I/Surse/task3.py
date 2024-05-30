@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def plot_histogram(df, column):
 	plt.hist(df[column].dropna())
-	plt.savefig(f"{column}.png")
+	plt.savefig(f"../Grafice/{column}.png")
 	plt.close()
 	pass
 

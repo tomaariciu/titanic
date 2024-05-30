@@ -8,6 +8,6 @@ def task7(df):
 	values = [children_survival_rate, adults_survival_rate]
 	labels = ["Children", "Adults"]
 	plt.bar(labels, values)
-	plt.savefig("Children&Adults_survival_rates.png")
+	plt.savefig("../Grafice/Children&Adults_survival_rates.png")
 	plt.close()
 	pass

@@ -13,6 +13,6 @@ def task6(df):
 		labels.append(AgeGroup)
 		percentages.append(survived / total * 100)
 	plt.bar(labels, percentages)
-	plt.savefig("Male_survival_rate.png")
+	plt.savefig("../Grafice/Male_survival_rate.png")
 	plt.close()
 	pass
