@@ -7,6 +7,7 @@ from task6 import task6
 from task7 import task7
 from task8 import task8
 from task9 import task9
+from task10 import task10
 
 df = task1()
 task2(df)
@@ -17,3 +18,4 @@ task6(df)
 task7(df)
 task8(df)
 task9(df)
+task10(df)
