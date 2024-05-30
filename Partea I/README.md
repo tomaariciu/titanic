@@ -69,3 +69,40 @@ Embarked      2
 ![plot_Parch](Grafice/Parch.png)
 
 ![plot_Fare](Grafice/Fare.png)
+
+# Cerinta 4
+
+* Am verificat pentru fiecare coloana daca are valori lipsa si, daca da, cate sunt si ce procentaj reprezinta.
+
+* Age:
+Numarul total este 177
+Procentajul este 19.865319865319865%
+* Cabin:
+Numarul total este 687
+Procentajul este 77.10437710437711%
+* Embarked:
+Numarul total este 2
+Procentajul este 0.22446689113355783%
+
+* Am facut aceeasi verificare luand in parte cele doua clase date de coloana Survived: cei care au supravietuit si cei care nu.
+
+#### Survived:
+
+* Age:
+Numarul total este 52
+Procentajul este 15.204678362573098%
+* Cabin:
+Numarul total este 206
+Procentajul este 60.23391812865497%
+* Embarked:
+Numarul total este 2
+Procentajul este 0.5847953216374269%
+
+#### Not survived:
+
+* Age:
+Numarul total este 125
+Procentajul este 22.768670309653917%
+* Cabin:
+Numarul total este 481
+Procentajul este 87.61384335154827%
